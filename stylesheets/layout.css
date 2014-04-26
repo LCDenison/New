@@ -1,0 +1,252 @@
+/*
+* Skeleton V1.2
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 6/20/2012
+*/
+
+/* Table of Content
+==================================================
+	#Site Styles
+	#Page Styles
+	#Media Queries
+	#Font-Face */
+
+/* #Site Styles
+================================================== */
+
+/*doc basics*/
+
+/*body{
+	background-image: url(../images/greyzz/greyzz.png);
+}*/
+
+body{
+	background-color: rgba(243,226,200,0.2);
+}
+
+*{
+	box-sizing: border-box;
+}
+
+/*scrollbar*/
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+::-webkit-scrollbar-track {
+    background-color:rgba(60,60,60,0.05);
+}
+ 
+::-webkit-scrollbar-thumb {
+  background-color: rgba(195,224,205, 0.7);
+}
+
+/*decor*/
+
+div #band{
+	width: 100%;
+	height: 20px;
+	background-color:rgba(237,46,20,0.8);
+	z-index: 1;
+}
+
+/*nav bar*/
+
+nav {
+	position: fixed;
+	width: 100%;
+	height: 90px;
+	background-color:rgba(243,226,200,0.2);
+}
+
+nav a {
+	font-family: 'Alegreya SC', 'serif';
+	font-size: 14pt;
+}
+
+nav ul {
+	border-radius: 10px;  
+	list-style: none;
+	position: relative;
+	display: inline-table;
+	margin: 0px;
+}
+
+nav ul ul{
+	display: none;
+}
+
+nav ul li:hover > ul {
+	display: block;
+}
+
+nav ul:after{
+	content: ""; clear: both; display: block;
+}
+
+nav ul li {
+	float: left;
+	z-index: 100;
+	margin: 0px;
+}
+
+nav ul li:hover {
+	background-color:rgba(243,226,200,1);
+	-webkit-transition: background-color 0.5s ease;
+	transition: background-color 0.5s ease;
+	}
+
+nav ul li:hover a {
+	color: rgba(60,60,60,1);
+	}
+	
+nav ul li a {
+	display: block; padding: 25px 30px 20px;
+	text-decoration: none;
+}
+
+nav ul ul {
+	background: rgba(243,226,200,0.15); border-radius: 0px; padding: 0;
+	position: absolute; top: 100%;
+}
+	nav ul ul li {
+		float: none; 
+		border-top: 1px solid rgb(60,60,60);
+		position: relative;
+	}
+		nav ul ul li a {
+			padding: 15px 30px;
+			color: #fff;
+		}	
+			nav ul ul li a:hover {
+				background: rgba(243,226,200,1);
+			}
+
+/*after nav*/
+
+/*#title{
+	border-bottom: 1px solid rgba(211,122,127,0.2);
+}*/
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+h5{
+	font-size: 100px;
+	letter-spacing: 0.14em;
+	text-align: center;
+	margin: 0 auto;
+	font-family: 'ostrich-sans-black', sans-serif;
+	font-weight: 600;
+	color: rgba(60,60,60,1);
+	margin-top: 90px;
+	height: 100px;
+	z-index: 100;
+}
+
+
+/*.subtitle{
+ border-bottom: 1px solid rgba(225,165,187, 0.5);
+}*/
+
+h3 {
+	font-family: 'Vollkorn', serif;
+	font-size: 20pt;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 100px;
+}
+
+div .content{
+	padding-top: 40px;
+	padding-bottom: 100px;
+	border-bottom: 5px solid rgba(237,46,20,0.5);
+}
+
+p{
+	font-size: 16pt;
+	line-height: 1.4;
+	font-family: 'Georgia', 'serif';
+	width: 760px;
+	text-align: center;
+	margin: 0 auto;
+	color: rgba(60,60,60,1);
+}
+
+div .footer{
+	width: 100%;
+	height: 150px;
+	background-color: rgba(243,226,200,0.15);
+
+}
+
+div .footer p{
+	font-family: 'ostrich-sans-dashed', 'sans-serif';
+	font-size: 25pt;
+	color: black;
+	font-weight: 500;
+}
+
+/* #Page Styles
+================================================== */
+
+/* #Media Queries
+================================================== */
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {}
+
+	@media screen and (max-width: 44em) {
+		nav[role="full-horizontal"]{
+			ul>li {
+				width: 100%;
+			}
+		}
+	}
+
+
+
+
+/* #Font-Face
+================================================== */
+
+@font-face {
+	    font-family: 'ostrich-sans-black';
+	    src: url('ostrich/webfonts/ostrich-sans-black.eot');
+	    src: url('ostrich/webfonts/ostrich-sans-black.eot?iefix') format('eot'),
+	         url('ostrich/webfonts/ostrich-sans-black.woff') format('woff'),
+	         url('ostrich/webfonts/ostrich-sans-black.ttf') format('truetype'),
+	         url('ostrich/webfonts/ostrich-sans-black.svg#webfontZam02nTh') format('svg');
+	    font-weight: normal;
+	    font-style: normal;
+}
+
+@font-face{
+
+	    font-family: 'ostrich-sans-dashed';
+	    src: url('ostrich/webfonts/ostrich-sans-dashed.eot');
+	    src: url('ostrich/webfonts/ostrich-sans-dashed.eot?iefix') format('eot'),
+	         url('ostrich/webfonts/ostrich-sans-dashed.woff') format('woff'),
+	         url('ostrich/webfonts/ostrich-sans-dashed.ttf') format('truetype'),
+	         url('ostrich/webfonts/ostrich-sans-dashed.svg#webfontZam02nTh') format('svg');
+	    font-weight: normal;
+	    font-style: normal; }
