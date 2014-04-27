@@ -47,7 +47,7 @@ body{
 
 /*decor*/
 
-div #band{
+div#band{
 	width: 100%;
 	height: 20px;
 	background-color:rgba(237,46,20,0.8);
@@ -126,6 +126,12 @@ nav ul ul {
 				background: rgba(243,226,200,1);
 			}
 
+nav ul ul ul {
+	position: absolute; left: 100%; top:0;
+	padding-left: 20px;
+	border-left: 1px solid rgb(60,60,60);
+}
+
 /*after nav*/
 
 /*#title{
@@ -161,10 +167,11 @@ h3 {
 	font-size: 20pt;
 	text-align: center;
 	margin: 0 auto;
-	margin-top: 100px;
+	margin-top: 30px;
+	margin-bottom: 70px;
 }
 
-div .content{
+div.content{
 	padding-top: 40px;
 	padding-bottom: 100px;
 	border-bottom: 5px solid rgba(237,46,20,0.5);
@@ -174,25 +181,90 @@ p{
 	font-size: 16pt;
 	line-height: 1.4;
 	font-family: 'Georgia', 'serif';
-	width: 760px;
+	width: 800px;
 	text-align: center;
 	margin: 0 auto;
 	color: rgba(60,60,60,1);
 }
 
-div .footer{
+div.footer{
 	width: 100%;
 	height: 150px;
 	background-color: rgba(243,226,200,0.15);
 
 }
 
-div .footer p{
+div.footer p{
 	font-family: 'ostrich-sans-dashed', 'sans-serif';
 	font-size: 25pt;
 	color: black;
 	font-weight: 500;
 }
+
+
+/*allsubpages*/
+
+p.subhead {
+	font-size: 14pt;
+	line-height: 1.4;
+	font-family: 'Georgia,' 'serif';
+	padding-bottom: 30px;
+}
+
+
+/*One.html*/
+
+div#aero{
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+#aero img {
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+
+/*Two.html*/
+
+#listtime p{
+	text-align: justify;
+	width: 800px;
+}
+
+em {
+	font-style: italic;
+}
+
+/*three.html*/
+
+div#chair{
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+#chair img{
+	max-width: 900px;
+	margin: 0 auto;
+} 
+
+
+/*four.html*/
+
+div#mockup{
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+#mockup img{
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 0px;
+}
+
+
+
+
 
 /* #Page Styles
 ================================================== */
