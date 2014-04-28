@@ -168,7 +168,7 @@ h3 {
 	text-align: center;
 	margin: 0 auto;
 	margin-top: 30px;
-	margin-bottom: 70px;
+	margin-bottom: 30px;
 }
 
 div.content{
@@ -227,14 +227,41 @@ div#aero{
 
 /*Two.html*/
 
-#listtime p{
-	text-align: justify;
-	width: 800px;
+div#listtime{
+	width: 700px;
+	margin: 0 auto;
+	margin-top: 30px;
+	padding-left: 22px;
 }
 
-em {
-	font-style: italic;
+#listtime ul{
+	width: 700px;
+	margin: 0 auto;
 }
+
+#listtime li{
+	background: url(../images/square.png) no-repeat left .60em;
+	padding-left: 20px;
+}
+
+
+div#listtime ul li{
+	font-size: 14pt;
+	line-height: 1.4;
+	font-family: 'Georgia,' 'serif';
+	padding-bottom: 30px;
+	text-align: justify;
+}
+
+h1{
+	font-style: italic;
+	font-size: 18pt;
+	font-family: 'Vollkorn', serif;
+	text-align: center;
+	font-weight: 300;
+}
+
+
 
 /*three.html*/
 
