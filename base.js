@@ -20,4 +20,16 @@ $('#14').click(function(){
 	$('#changing-content').load('html/week1/four.html');
 })
 
+$('#15').click(function(){
+	$('#changing-content').load('html/week2/two_one.html');
+})
+
+$('#16').click(function(){
+	$('#changing-content').load('html/week2/two_two.html');
+})
+
+$('#17').click(function(){
+	$('#changing-content').load('html/week2/two_three.html');
+})
+
 });
