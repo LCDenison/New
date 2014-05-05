@@ -1,7 +1,7 @@
 $(window).load(function() {
 
 $('#gap-link').click(function(){
-	$('#changing-content').load('gap.html');
+	$('#changing-content').load('html/gap.html');
 })
 
 $('#11').click(function(){

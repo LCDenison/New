@@ -290,6 +290,10 @@ div#mockup{
 	padding: 0px;
 }
 
+/*gap*/
+div#gap{
+	height: 400px;
+}
 
 /*footer*/
 div.footer{
